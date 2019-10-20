@@ -1,0 +1,258 @@
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', 'Oswald', sans-serif;
+    max-width: 1920px;
+}
+
+.container {
+    max-width: 1110px;
+    height: 520px;
+    margin: 0 auto;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 800px;
+}
+
+.background-image {
+    background: url("../images/back-image.jpg") fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.header-top {
+    background: rgba(0, 91, 193, 0.6);
+    width: 100%;
+    height: 80px;
+    margin-bottom: 202px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 140px;
+    height: 58px;
+    margin: 11px 0 0 40px;
+}
+
+.logo a:hover {
+    filter: drop-shadow(2px 4px 6px red);
+    transition: .2s;
+}
+
+.menu {
+    display: flex;
+    margin: 0 auto;
+    color: #FFFFFF;
+    padding-left: 0;
+}
+
+.menu a {
+    margin-right: 28px;
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+.menu a:hover {
+    background: #ff3d007d;
+    transition: .1s;
+    padding: 10px;
+}
+
+.burger-menu {
+    display: none;
+    align-items: center;
+}
+
+.burger-menu span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    position: relative;
+    transition: all .5s;
+}
+
+.burger-menu span:before,
+.burger-menu span:after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #FFFFFF;
+    transition: all .5s;
+}
+
+
+.burger-menu span:after {
+    top: 10px;
+}
+
+.burger-menu.burger-open span {
+    background: transparent;
+}
+
+.burger-open span:before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+.burger-open span:after {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.menu.menu-show {
+    display: block;
+    z-index: 1;
+}
+
+.first-screen-content {
+    color: #FFFFFF;
+    z-index: 1;
+    margin: 0 auto;
+}
+
+.first-screen-content h1 {
+    line-height: 71px;
+    letter-spacing: 0.01em;
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+.first-screen-content p {
+    line-height: 22px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+form .button {
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 0;
+    width: 160px;
+    padding: 15px 41px 14px 40px;
+    height: 51px;
+}
+
+form .button:hover {
+    background: #ff572240;
+    filter: drop-shadow(2px 4px 6px red);
+    transition: .3s;
+}
+
+.wall {
+    top: 80px;
+    width: 444px;
+    height: 720px;
+    background: rgba(0, 91, 193, 0.6);
+    position: absolute;
+    animation: wall 10s ease infinite;
+}
+
+@keyframes wall {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+
+/*Наши проекты*/
+
+.our-projects {
+    background: #E5E5E5;
+}
+
+.our-projects h2 {
+    color: #343434;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    position: relative;
+    font-weight: normal;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 156px 140px 0;
+    margin: 0;
+}
+
+.our-projects h2:before {
+    content: '';
+    top: 174px;
+    left: 0;
+    position: absolute;
+    border: 3px solid #005BC1;
+    width: 100px;
+}
+
+.our-projects h2:after {
+    content: '';
+    left: 50px;
+    top: 187px;
+    position: absolute;
+    width: 50px;
+    border: 3px solid #005BC1;
+}
+
+.content-wrapper {
+    display: flex;
+    margin-top: 70px;
+
+}
+
+.our-projects img {
+    width: 540px;
+    height: 400px;
+
+}
+
+.box-content {
+    background: #FFFFFF;
+    transform: translate(-110px, 255px);
+}
+
+.box-content h4 {
+    color: #343434;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+}
+
+.box-content p {
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}

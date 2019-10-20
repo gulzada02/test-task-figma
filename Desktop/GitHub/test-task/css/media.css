@@ -1,0 +1,70 @@
+@media (max-width: 1200px ) {
+    .burger-menu {
+        display: flex;
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    .header-top {
+        height: 150px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu a {
+        font-size: 20px;
+    }
+
+    .wall {
+        top: 150px;
+        height: 650px;
+    }
+
+    form {
+        text-align: center;
+    }
+}
+
+@media (max-width: 390px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    .logo img {
+        margin: 0 auto;
+        width: 140px;
+        height: 58px;
+    }
+
+    .burger-menu {
+        margin-top: 20px;
+    }
+
+    .menu-show {
+        padding: 20px 0;
+    }
+
+    .header-top {
+        height: 340px;
+    }
+
+    .wall {
+        top: 340px;
+        height: 460px;
+    }
+
+    .header-top {
+        margin-bottom: 0;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .first-screen-content h1 {
+        font-size: 30px;
+    }
+}
