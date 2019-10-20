@@ -14,8 +14,10 @@ body {
 
 .container {
     max-width: 1110px;
-    height: 520px;
+    height: 100%;
     margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 /*header*/
@@ -189,11 +191,13 @@ form .button:hover {
 
 /*Наши проекты*/
 
-.our-projects {
+.our-projects,
+.section-background {
     background: #E5E5E5;
 }
 
-.our-projects h2 {
+.our-projects h2,
+.section-background h2 {
     color: #343434;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
@@ -206,7 +210,8 @@ form .button:hover {
     margin: 0;
 }
 
-.our-projects h2:before {
+.our-projects h2:before,
+.section-background h2:before {
     content: '';
     top: 174px;
     left: 0;
@@ -215,7 +220,8 @@ form .button:hover {
     width: 100px;
 }
 
-.our-projects h2:after {
+.our-projects h2:after,
+.section-background h2:after {
     content: '';
     left: 50px;
     top: 187px;
@@ -224,7 +230,7 @@ form .button:hover {
     border: 3px solid #005BC1;
 }
 
-.content-wrapper {
+.wrapper {
     display: flex;
     margin-top: 70px;
 
@@ -239,6 +245,8 @@ form .button:hover {
 .box-content {
     background: #FFFFFF;
     transform: translate(-110px, 255px);
+    width: 250px;
+    height: 110px;
 }
 
 .box-content h4 {
@@ -256,3 +264,16 @@ form .button:hover {
     font-size: 14px;
     line-height: 19px;
 }
+
+/*Каталог продукции*/
+
+.section-background a h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #343434;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: normal;
+}
+
