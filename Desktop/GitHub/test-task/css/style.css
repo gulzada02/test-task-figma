@@ -230,16 +230,61 @@ form .button:hover {
     border: 3px solid #005BC1;
 }
 
+nav {
+    display: flex;
+}
+
+.nav-item .nav-link {
+    position: relative;
+    border: 2px solid #005BC1;
+    width: 55px;
+    height: 55px;
+    left: 570px;
+    top: 65px;
+}
+
+.nav-item .left {
+    position: absolute;
+    border: 2px solid #005BC1;
+    transform: rotate(-45deg);
+    width: 12.59px;
+    height: 0;
+}
+
+.nav-item .left:before {
+    content: '';
+    position: relative;
+    border: 2px solid #005BC1;
+    transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
+    width: 12.59px;
+    height: 0;
+}
+
+.nav-item .right {
+    position: absolute;
+    border: 2px solid #005BC1;
+    transform: matrix(-0.71, -0.71, -0.71, 0.71, 0, 0);
+    width: 12.59px;
+    height: 0;
+}
+
+.nav-item .right:before {
+    content: '';
+    position: relative;
+    border: 2px solid #005BC1;
+    transform: rotate(-45deg);
+    width: 12.59px;
+    height: 0;
+}
+
 .wrapper {
     display: flex;
     margin-top: 70px;
-
 }
 
 .our-projects img {
     width: 540px;
     height: 400px;
-
 }
 
 .box-content {
@@ -275,5 +320,27 @@ form .button:hover {
     font-size: 24px;
     line-height: 36px;
     font-weight: normal;
+}
+
+.box-product-image {
+    width: 350px;
+    height: 300px;
+    border: 3px solid #005BC1;
+    margin-right: 30px;
+}
+
+.box-product-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.production {
+    margin-top: 70px;
+}
+
+.production .nav-item {
+    margin: 0 30px;
+    position: relative;
+    left: 555px;
 }
 
