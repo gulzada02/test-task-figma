@@ -192,12 +192,14 @@ form .button:hover {
 /*Наши проекты*/
 
 .our-projects,
-.section-background {
+.section-background,
+.rent {
     background: #E5E5E5;
 }
 
 .our-projects h2,
-.section-background h2 {
+.section-background h2,
+.rent h2 {
     color: #343434;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
@@ -211,7 +213,8 @@ form .button:hover {
 }
 
 .our-projects h2:before,
-.section-background h2:before {
+.section-background h2:before,
+.rent h2:before {
     content: '';
     top: 174px;
     left: 0;
@@ -221,7 +224,8 @@ form .button:hover {
 }
 
 .our-projects h2:after,
-.section-background h2:after {
+.section-background h2:after,
+.rent h2:after {
     content: '';
     left: 50px;
     top: 187px;
@@ -323,10 +327,20 @@ nav {
 }
 
 .box-product-image {
+    position: relative;
     width: 350px;
     height: 300px;
-    border: 3px solid #005BC1;
     margin-right: 30px;
+}
+
+.box-product-image:before {
+    content: "";
+    position: absolute;
+    background: #005BC1;
+    width: 265px;
+    height: 86px;
+    bottom: 15px;
+    right: 0;
 }
 
 .box-product-image img {
@@ -342,5 +356,57 @@ nav {
     margin: 0 30px;
     position: relative;
     left: 555px;
+}
+
+
+.production .active:hover:before {
+    content: '';
+    position: absolute;
+    width: 53px;
+    height: 2px;
+    background: #005BC1;
+    top: 35px;
+}
+
+.production .active a:hover {
+    color: #005BC1;
+    transition: .2s;
+}
+
+/*Аренда оборудования*/
+
+.rent .wrapper .content-left {
+    width: 50%;
+    padding: 110px 0 0 0;
+    color: #343434;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.col-3 img {
+    width: 255px;
+    height: 250px;
+    margin: 30px;
+}
+
+.card {
+    border: 3px solid #005BC1;
+    width: 665px;
+    height: 394px;
+    background: none;
+}
+
+.card h4 {
+    color: #343434;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 42px 0 0 30px;
 }
 
