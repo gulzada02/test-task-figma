@@ -5,7 +5,7 @@ $('.burger-menu').on('click', function (e) {
 });
 
 $(document).ready(function () {
-    $(".projects-slider").owlCarousel({
+    $(".projects-slider").owlCarousel( {
         items: 1,
         dots: true,
         nav: true,
