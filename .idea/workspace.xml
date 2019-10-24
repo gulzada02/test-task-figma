@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe235367-6d93-4cc4-b4cd-a9bded23af4f" name="Default Changelist" comment="" />
+    <list default="true" id="fe235367-6d93-4cc4-b4cd-a9bded23af4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Desktop/GitHub/test-task/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/GitHub/test-task/js/script.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
       <workItem from="1571889965851" duration="140000" />
       <workItem from="1571890289660" duration="52000" />
       <workItem from="1571896063288" duration="129000" />
+      <workItem from="1571896521563" duration="386000" />
     </task>
     <servers />
   </component>
