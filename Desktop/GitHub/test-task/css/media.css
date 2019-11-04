@@ -28,7 +28,100 @@
     }
 }
 
+@media (max-width: 992px) {
+    .box-content {
+        right: -190px;
+    }
+
+    .rent .owl-nav {
+        display: none;
+    }
+
+    #rent .wrapper .content-left {
+        padding: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .our-projects img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .box-content {
+        right: 0;
+    }
+
+    .box-production {
+        display: inline-block;
+    }
+
+    #rent .wrapper {
+        display: block;
+    }
+
+    #rent .wrapper .content-left {
+        width: 100%;
+    }
+
+    #rent .wrapper {
+        margin-top: 0;
+    }
+
+    .second-seminar .top-title,
+    .third-seminar .top-title {
+        margin-top: 15px;
+    }
+
+    .big-text, .small-text {
+        width: 100%;
+    }
+
+    .sup-line,
+    .sub-line {
+        display: block;
+    }
+
+    .sup-line p {
+        text-align: left;
+    }
+}
+
+@media (max-width: 576px) {
+    .box-content {
+        right: 0;
+    }
+
+    .box-production {
+        display: inline-block;
+    }
+
+    #rent .wrapper {
+        margin-top: 0;
+        display: inline-block;
+    }
+
+    #rent .wrapper .content-left,
+    .card {
+        width: 100%;
+    }
+
+    .rent .owl-nav {
+        display: none;
+    }
+
+    .sup-line,
+    .sub-line {
+        display: block;
+    }
+
+    .sup-line p {
+        text-align: left;
+    }
+}
+
 @media (max-width: 390px) {
+
     nav {
         display: block;
         text-align: center;
@@ -61,10 +154,63 @@
         margin-bottom: 0;
     }
 
+    .slide .row {
+        display: block;
+    }
+
+    .box-content {
+        right: 0;
+    }
 }
 
 @media (max-width: 350px) {
     .first-screen-content h1 {
         font-size: 30px;
+    }
+
+    .owl-nav {
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .box-production {
+        display: block;
+    }
+
+    #rent .wrapper {
+        display: block;
+        margin-top: 0;
+    }
+
+    .content-left {
+        text-align: center;
+    }
+
+    .card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card .image-content {
+        bottom: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    .rent .owl-nav {
+        display: none;
+    }
+
+    .image-content {
+        margin: auto;
+    }
+
+    .news-item-left {
+        display: block;
+    }
+
+    .news .wrapper {
+        text-align: center;
     }
 }
