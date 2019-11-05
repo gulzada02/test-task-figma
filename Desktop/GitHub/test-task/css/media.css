@@ -5,6 +5,7 @@
     }
     .burger-menu {
         display: flex;
+        margin-left: auto;
         width: 40px;
         height: 40px;
     }
@@ -57,7 +58,8 @@
     }
 
     .box-content {
-        right: 0;
+        margin: 0 auto;
+        left: 0;
     }
 
     .image-box {
@@ -104,9 +106,6 @@
 }
 
 @media (max-width: 576px) {
-    .box-content {
-        right: 0;
-    }
 
     .box-production {
         display: inline-block;
@@ -140,7 +139,6 @@
 
     nav {
         display: block;
-        text-align: center;
     }
 
     .owl-nav {
@@ -148,17 +146,12 @@
     }
 
     .logo img {
-        margin: 0 auto;
         width: 140px;
         height: 58px;
     }
 
-    .burger-menu {
-        margin-top: 20px;
-    }
-
     .menu-show {
-        padding: 20px 0;
+        padding-left: 235px;
     }
 
     .header-top {
@@ -189,17 +182,46 @@
     }
 
 
+    .news-title h2 {
+        margin-bottom: 20px;
+    }
+
     .news-item-left {
         display: block;
+        text-align: -webkit-center;
     }
 
     .news-btn {
         bottom: -55px;
         left: 0;
     }
+
+    .news-item {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .top-title {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .date {
+        text-align: center;
+    }
+
+    .middle-line {
+        display: block;
+    }
+
+
 }
 
 @media (max-width: 350px) {
+    .menu-show {
+        padding-left: 180px;
+    }
+
     .first-screen-content h1 {
         font-size: 30px;
     }
@@ -212,6 +234,10 @@
 
     .box-production {
         display: block;
+    }
+
+    .box-product-image {
+        width: 100%;
     }
 
     #rent .wrapper {
