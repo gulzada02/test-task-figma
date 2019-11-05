@@ -22,6 +22,8 @@ body {
     max-width: 1110px;
     height: 100%;
     margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 /*header*/
@@ -59,7 +61,7 @@ nav {
 }
 
 .logo a:hover {
-    filter: drop-shadow(2px 4px 6px red);
+    filter: drop-shadow(2px 4px 6px orangered);
     transition: .2s;
 }
 
@@ -77,6 +79,11 @@ nav {
     border: 1px solid transparent;
     transition: all 0.4s cubic-bezier(.5, .24, 0, 1);
 
+}
+
+.menu li:hover {
+    transform: scale(1.1);
+    transition-duration: .2s;
 }
 
 .burger-menu {
@@ -233,14 +240,10 @@ form .button:hover {
     border: 3px solid #005BC1;
 }
 
-.wrapper {
+.image-box {
     margin-top: 70px;
 }
 
-.our-projects .wrapper {
-    padding-left: 0;
-    padding-right: 0;
-}
 
 .slide .row{
     margin-left: 0;
@@ -288,6 +291,11 @@ form .button:hover {
     position: absolute;
     top: -50px;
     right: 0;
+}
+
+.owl-nav button svg:hover {
+    filter: drop-shadow(2px 4px 6px darkblue);
+    transition: .2s;
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
@@ -417,6 +425,11 @@ form .button:hover {
     margin-left: 21px;
 }
 
+.box-product-content:hover {
+    filter: drop-shadow(2px 4px 6px black);
+    transition: .2s;
+}
+
 .production {
     margin-top: 70px;
 }
@@ -461,27 +474,31 @@ form .button:hover {
     margin-right: 95px;
 }
 
-
+#rent h2 {
+    margin-bottom: 70px;
+}
 .rent .owl-nav {
     right: 30px;
 }
 
-.col-3 {
-    max-width: 50%;
-}
 
-.col-3 img {
+.col-6 img {
     width: 255px;
     height: 250px;
     margin: 30px;
 }
 
-.card .image-content {
-    position: relative;
-    bottom: 270px;
-    right: -275px;
+.col-6 p {
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+    margin-top: 45px;
 }
-
 .image-content p {
     margin-bottom: 30px;
 }
@@ -523,6 +540,7 @@ form .button:hover {
 .news-title {
     display: flex;
     position: relative;
+    margin-bottom: 70px;
 }
 
 .news-btn {
@@ -543,6 +561,11 @@ form .button:hover {
     line-height: 22px;
 }
 
+.news-btn:hover {
+    filter: drop-shadow(2px 4px 6px black);
+    transition-duration: .2s;
+    border-radius: 15px;
+}
 .news .wrapper {
     display: flex;
 }
@@ -581,6 +604,7 @@ form .button:hover {
 
 .news-item {
     margin-left: 30px;
+    margin-right: 60px;
 }
 .news-item a {
     font-family: 'Open Sans', sans-serif;
@@ -598,6 +622,9 @@ form .button:hover {
     height: 115px;
 }
 
+.second-seminar {
+    margin-right: 30px;
+}
 .date {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -675,6 +702,10 @@ hr {
     text-align: right;
     color: #FFFFFF;
 }
+.sup-line a:hover {
+    transform: scale(1.1);
+    transition-duration: .2s;
+}
 
 .middle-line {
     padding-left: 0;
@@ -682,7 +713,7 @@ hr {
 }
 
 .middle-line li {
-    margin-right: 130px;
+    margin-right: auto;
 }
 
 .footer-content a {
