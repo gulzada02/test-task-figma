@@ -564,7 +564,6 @@ form .button:hover {
 .news-btn:hover {
     filter: drop-shadow(2px 4px 6px black);
     transition-duration: .2s;
-    border-radius: 15px;
 }
 .news .wrapper {
     display: flex;
