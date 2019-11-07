@@ -32,6 +32,11 @@ header {
     height: 800px;
 }
 
+.burger-menu {
+    width: 40px;
+    height: 40px;
+}
+
 .scroll-nav {
     height: 80px;
     width: 100%;
