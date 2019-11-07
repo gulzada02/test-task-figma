@@ -11,7 +11,6 @@ li {
     outline: none;
 }
 
-
 body {
     font-family: 'Open Sans', 'Oswald', sans-serif;
     max-width: 1920px;
@@ -25,9 +24,7 @@ body {
     padding-right: 0;
     padding-left: 0;
 }
-
 /*header*/
-
 header {
     width: 100%;
     height: 800px;
@@ -47,7 +44,6 @@ header {
     height: 80px;
     margin-bottom: 202px;
 }
-
 
 nav {
     display: flex;
@@ -69,7 +65,7 @@ nav {
     display: flex;
     margin: 0 auto;
     color: #FFFFFF;
-    padding-left: 0;
+
 }
 
 .menu a {
@@ -112,7 +108,6 @@ nav {
     background: #FFFFFF;
     transition: all .5s;
 }
-
 
 .burger-menu span:after {
     top: 10px;
@@ -171,6 +166,7 @@ form .button {
     width: 160px;
     padding: 15px 41px 14px 40px;
     height: 51px;
+    z-index: auto;
 }
 
 form .button:hover {
@@ -196,10 +192,7 @@ form .button:hover {
         left: 100%;
     }
 }
-
-
 /*Наши проекты*/
-
 .our-projects h2,
 .section-background h2,
 #rent h2,
@@ -221,10 +214,10 @@ form .button:hover {
 #rent h2:before,
 .news h2:before {
     content: '';
-    top: 174px;
+    top: 170px;
     left: 0;
     position: absolute;
-    border: 3px solid #005BC1;
+    border: 2px solid #005BC1;
     width: 100px;
 }
 
@@ -234,10 +227,10 @@ form .button:hover {
 .news h2:after {
     content: '';
     left: 50px;
-    top: 187px;
+    top: 185px;
     position: absolute;
     width: 50px;
-    border: 3px solid #005BC1;
+    border: 2px solid #005BC1;
 }
 
 .image-box {
@@ -245,9 +238,10 @@ form .button:hover {
 }
 
 
-.slide .row{
+.slide .row {
     margin-left: 0;
 }
+
 .our-projects img {
     width: 540px;
     height: 400px;
@@ -255,6 +249,7 @@ form .button:hover {
 
 .image-box {
     width: 50%;
+    height: 400px;
 }
 
 .box-content {
@@ -311,7 +306,7 @@ form .button:hover {
     position: relative;
 }
 
-.owl-carousel .owl-nav button.owl-next  {
+.owl-carousel .owl-nav button.owl-next {
     width: 55px;
     height: 55px;
     border: 2px solid #005BC1;
@@ -330,9 +325,7 @@ form .button:hover {
     margin: auto;
 }
 
-
 /*Каталог продукции*/
-
 .title-content h2 {
     margin-bottom: 70px;
 }
@@ -344,6 +337,7 @@ form .button:hover {
 .tabs input {
     display: none;
 }
+
 .tabs label {
     font-family: 'Oswald', sans-serif;
     font-style: normal;
@@ -359,17 +353,20 @@ form .button:hover {
 .tabs label {
     margin-right: 47px;
 }
+
 .tabs input:checked + label,
 .tabs label:hover {
     color: #005BC1;
     transition: .2s;
     border-bottom: 2px solid #005BC1;
 }
-.tabs article{
+
+.tabs article {
     display: none;
 }
+
 .tabs #tab1:checked ~ .tab1,
-.tabs #tab2:checked ~ .tab2{
+.tabs #tab2:checked ~ .tab2 {
     display: block;
 }
 
@@ -440,7 +437,6 @@ form .button:hover {
     left: 555px;
 }
 
-
 .production .active:hover:before {
     content: '';
     position: absolute;
@@ -454,9 +450,7 @@ form .button:hover {
     color: #005BC1;
     transition: .2s;
 }
-
 /*Аренда оборудования*/
-
 #rent .wrapper {
     display: flex;
     justify-content: center;
@@ -465,18 +459,18 @@ form .button:hover {
 
 #rent .wrapper .content-left {
     width: 350px;
-    padding: 110px 0 0 0;
     color: #343434;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 18px;
     line-height: 25px;
-    margin-right: 95px;
+    margin: 0 auto;
 }
 
 #rent h2 {
     margin-bottom: 70px;
 }
+
 .rent .owl-nav {
     right: 30px;
 }
@@ -499,6 +493,7 @@ form .button:hover {
     color: #343434;
     margin-top: 45px;
 }
+
 .image-content p {
     margin-bottom: 30px;
 }
@@ -508,6 +503,7 @@ form .button:hover {
     width: 665px;
     height: 394px;
     background: none;
+    margin: 0 auto;
 }
 
 .card h4 {
@@ -531,12 +527,11 @@ form .button:hover {
     font-size: 14px;
     line-height: 19px;
 }
-
 /*Новости*/
-
 .news {
     padding-bottom: 120px;
 }
+
 .news-title {
     display: flex;
     position: relative;
@@ -565,6 +560,7 @@ form .button:hover {
     filter: drop-shadow(2px 4px 6px black);
     transition-duration: .2s;
 }
+
 .news .wrapper {
     display: flex;
 }
@@ -584,9 +580,11 @@ form .button:hover {
     text-transform: uppercase;
     color: #343434;
 }
+
 .top-title {
     display: flex;
 }
+
 .first-seminar img {
     width: 255px;
     height: 242px;
@@ -605,6 +603,7 @@ form .button:hover {
     margin-left: 30px;
     margin-right: 60px;
 }
+
 .news-item a {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -624,6 +623,7 @@ form .button:hover {
 .second-seminar {
     margin-right: 30px;
 }
+
 .date {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -633,8 +633,9 @@ form .button:hover {
     text-align: right;
     color: #979797;
     vertical-align: bottom;
-    margin-left: 25px;
+    margin-left: 51px;
 }
+
 .big-text,
 .small-text {
     font-family: 'Open Sans', sans-serif;
@@ -701,6 +702,7 @@ hr {
     text-align: right;
     color: #FFFFFF;
 }
+
 .sup-line a:hover {
     transform: scale(1.1);
     transition-duration: .2s;
@@ -712,7 +714,7 @@ hr {
 }
 
 .middle-line li {
-    margin-right: auto;
+    margin-right: 125px;
 }
 
 .footer-content a {
@@ -737,5 +739,3 @@ hr {
     line-height: 19px;
     color: #FFFFFF;
 }
-
-
