@@ -2,7 +2,9 @@ a, a:hover {
     text-decoration: none;
     color: white;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 li {
     list-style: none;
 }
@@ -30,6 +32,16 @@ header {
     height: 800px;
 }
 
+.scroll-nav {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.header-fixed {
+    background: #005BC1;
+}
 .background-image {
     background: url("../images/back-image.jpg") fixed;
     width: 100%;
@@ -52,14 +64,12 @@ nav {
 
 .logo img {
     width: 140px;
+    position: absolute;
+    top: 0;
     height: 58px;
     margin: 11px 0 0 40px;
 }
 
-.logo a:hover {
-    filter: drop-shadow(2px 4px 6px orangered);
-    transition: .2s;
-}
 
 .menu {
     display: flex;
