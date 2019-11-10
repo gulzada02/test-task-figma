@@ -3,9 +3,11 @@ a, a:hover {
     text-decoration: none;
     color: white;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 li {
     list-style: none;
 }
@@ -27,6 +29,7 @@ body {
     padding-right: 0;
     padding-left: 0;
 }
+
 /*header*/
 header {
     width: 100%;
@@ -48,6 +51,7 @@ header {
 .header-fixed {
     background: #005BC1;
 }
+
 .background-image {
     background: url("../images/back-image.jpg") fixed;
     width: 100%;
@@ -208,6 +212,7 @@ form .button:hover {
         left: 100%;
     }
 }
+
 /*Наши проекты*/
 .our-projects h2,
 .section-background h2,
@@ -462,6 +467,7 @@ form .button:hover {
     color: #005BC1;
     transition: .2s;
 }
+
 /*Аренда оборудования*/
 #rent .wrapper {
     display: flex;
@@ -539,6 +545,7 @@ form .button:hover {
     font-size: 14px;
     line-height: 19px;
 }
+
 /*Новости*/
 .news {
     padding-bottom: 120px;
@@ -670,7 +677,7 @@ hr {
     background: #FFFFFF;
 }
 
-footer{
+footer {
     background: #005BC1;
 }
 
@@ -695,6 +702,7 @@ footer{
     font-size: 18px;
     line-height: 27px;
 }
+
 .sup-line p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -704,6 +712,7 @@ footer{
     text-align: center;
     color: #FFFFFF;
 }
+
 .sup-line a {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -713,23 +722,28 @@ footer{
     text-align: right;
     color: #FFFFFF;
 }
+
 .sup-line a:hover {
     transform: scale(1.1);
     transition-duration: .2s;
 }
+
 .footer-nav {
     padding: 20px 0;
     border-bottom: 1px solid #FFFFFF;
 }
+
 .footer-nav-item {
     margin-right: 70px;
     display: inline-block;
     padding-left: 0;
 }
+
 .footer-nav-item li:hover {
     transform: scale(1.1);
     transition-duration: .2s;
 }
+
 .footer-content a {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -738,10 +752,12 @@ footer{
     line-height: 38px;
     color: #FFFFFF;
 }
+
 .sub-line {
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
 .sub-line p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
