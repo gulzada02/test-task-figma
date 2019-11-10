@@ -34,7 +34,8 @@
                 </a>
             </nav>
         </div>
-        <div class="container" id="about">
+        <section id="about">
+        <div class="container">
             <div class="row">
                 <div class="first-screen-content">
                     <form>
@@ -53,17 +54,16 @@
                 </div>
             </div>
         </div>
+        </section>
     </div>
 </header>
 
 <!--Наши проекты-->
-
-<section class="our-projects" id="our-projects">
-    <div class="container">
+<section id="our-projects">
+    <div class="container our-projects">
         <h2 class="projects">Наши проекты</h2>
         <section class="slider-content">
             <div class="projects-slider owl-carousel owl-theme">
-
                 <div class="image-box">
                     <img src="images/project-item-first.png" alt="">
                     <div class="box-content">
@@ -100,16 +100,14 @@
                             форума “Шубы-2019”</p>
                     </div>
                 </div>
-
             </div>
         </section>
     </div>
 </section>
 
 <!--Каталог продукции-->
-
-<section class="section-background" id="our-production">
-    <div class="container">
+<section id="our-production">
+    <div class="container section-background">
         <div class="title-content">
             <h2>Каталог продукции</h2>
             <div class="tabs">
@@ -171,9 +169,7 @@
         </div>
     </div>
 </section>
-
 <!--Аренда оборудования-->
-
 <section id="rent">
     <div class="container">
         <h2 class="product-rent">Аренда оборудования</h2>
@@ -254,11 +250,9 @@
         </div>
     </div>
 </section>
-
 <!--Новости-->
-
-<section class="news" id="news">
-    <div class="container">
+<section id="news">
+    <div class="container news">
         <nav class="news-title">
             <h2>Новости</h2>
             <a class="news-btn" href="">все новости</a>
@@ -318,41 +312,35 @@
         </div>
     </div>
 </section>
-
 <!--FOOTER-->
-
-<section class="footer-content" id="contacts">
-    <div class="container">
-        <div class="sup-line">
+<footer>
+    <div class="container footer-content">
+        <div class="sup-line" id="contacts">
             <h4>(812) 710-80-25</h4>
             <p>191180, Санкт-Петербург, Набережная реки Фонтанки, 90, корпус 1</p>
             <a href="">mail@translight.ru</a>
         </div>
-        <hr>
-        <ul class="middle-line">
-            <li>
-                <a href="">О компании</a>
-                <br>
-                <a href="">Новости</a>
-            </li>
-            <li>
-                <a href="">Каталог</a>
-                <br>
-                <a href="">Аренда</a>
-            </li>
-            <li>
-                <a href="">Наши проекты</a>
-                <br>
-                <a href="">Сервисное обслуживание</a>
-            </li>
+        <div class="footer-nav">
+        <ul class="footer-nav-item">
+            <li><a href="#about">О компании</a></li>
+            <li><a href="#news">Новости</a></li>
         </ul>
-        <hr>
+            <ul class="footer-nav-item">
+            <li><a href="#our-production">Каталог</a></li>
+            <li><a href="#rent">Аренда</a></li>
+            </ul>
+            <ul class="footer-nav-item">
+                <li class="footer-nav-item"></li>
+                <li><a href="#our-projects">Наши проекты</a></li>
+                <li><a href="#rent">Сервисное обслуживание</a></li>
+        </ul>
+        </div>
         <div class="sub-line">
             <p>© 2019 ЗАО «Транслайт». Все права защищены.</p>
             <p>Разработка и дизайн - D-e-n.ru</p>
         </div>
     </div>
-</section>
+</footer>
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>

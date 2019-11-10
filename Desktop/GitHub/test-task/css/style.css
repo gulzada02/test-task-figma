@@ -1,3 +1,4 @@
+
 a, a:hover {
     text-decoration: none;
     color: white;
@@ -262,10 +263,6 @@ form .button:hover {
     height: 400px;
 }
 
-.image-box {
-    width: 50%;
-    height: 400px;
-}
 
 .box-content {
     background: #FFFFFF;
@@ -673,7 +670,7 @@ hr {
     background: #FFFFFF;
 }
 
-.footer-content {
+footer{
     background: #005BC1;
 }
 
@@ -685,6 +682,7 @@ hr {
 
 .sup-line {
     padding-top: 40px;
+    border-bottom: 1px solid #FFFFFF;
 }
 
 .sup-line h4 {
@@ -697,7 +695,6 @@ hr {
     font-size: 18px;
     line-height: 27px;
 }
-
 .sup-line p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -707,7 +704,6 @@ hr {
     text-align: center;
     color: #FFFFFF;
 }
-
 .sup-line a {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -717,21 +713,23 @@ hr {
     text-align: right;
     color: #FFFFFF;
 }
-
 .sup-line a:hover {
     transform: scale(1.1);
     transition-duration: .2s;
 }
-
-.middle-line {
+.footer-nav {
+    padding: 20px 0;
+    border-bottom: 1px solid #FFFFFF;
+}
+.footer-nav-item {
+    margin-right: 70px;
+    display: inline-block;
     padding-left: 0;
-    display: flex;
 }
-
-.middle-line li {
-    margin-right: 125px;
+.footer-nav-item li:hover {
+    transform: scale(1.1);
+    transition-duration: .2s;
 }
-
 .footer-content a {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -740,12 +738,10 @@ hr {
     line-height: 38px;
     color: #FFFFFF;
 }
-
 .sub-line {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
 .sub-line p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
