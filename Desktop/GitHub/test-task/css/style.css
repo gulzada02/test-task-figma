@@ -396,7 +396,15 @@ form .button:hover {
     line-height: 36px;
     font-weight: normal;
 }
-
+.section-background h2 {
+    padding: 0 140px 0;
+}
+.section-background h2:before {
+    top: 15px;
+}
+.section-background h2:after {
+    top: 30px;
+}
 .box-production {
     margin-top: 56px;
     display: flex;

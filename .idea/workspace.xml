@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe235367-6d93-4cc4-b4cd-a9bded23af4f" name="Default Changelist" comment="" />
+    <list default="true" id="fe235367-6d93-4cc4-b4cd-a9bded23af4f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Desktop/GitHub/test-task/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Desktop/GitHub/test-task/css/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +76,7 @@
       <workItem from="1573125642496" duration="2297000" />
       <workItem from="1573152980455" duration="115000" />
       <workItem from="1573265629840" duration="8198000" />
+      <workItem from="1573395040660" duration="147000" />
     </task>
     <servers />
   </component>
